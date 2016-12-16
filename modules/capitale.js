@@ -6,7 +6,7 @@ function getCapitals (data) {
     const param = {
       uri: config.countries.route + 'name/' + data.entities.location[0].value,
       headers: {
-        'X-Mashape-Key': 'sFfEWLjegYmshHHnp906HTPvhRsHp1TLkzfjsnbxgORXiuf9sv',
+        'X-Mashape-Key': config.countries.key,
         Accept: 'application/json'
       }
     }
